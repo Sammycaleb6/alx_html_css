@@ -1,0 +1,87 @@
+
+li{
+  list-style-type: none;
+}
+li a{
+  text-decoration: none;
+  color: white;
+}
+header{
+  display: flex;
+  flex-direction: row;
+}
+button{
+  background-color: blueviolet; border: none;
+  border-radius: 10px;
+  color: white;
+  width: 162px;
+  height: 44px;
+
+}
+.tests{
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  
+}
+h2{
+  text-align: center;
+}
+.testimonials{
+  background-color: #C271FF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 392px;
+  width: 1440px;
+}
+.quote{
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+main{
+  background-image: url(images/Object.png);
+  background-repeat: no-repeat;
+  height: 1093px;
+}
+.tutorials{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: none;
+}
+.tuts{
+  display: flex;
+  flex-direction: row;
+}
+.rating{
+  color: #C271FF;
+  display: inline;
+}
+.membership{
+  background-color: #071629;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color: white;
+
+}
+.members{
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+}
+footer{
+  background-color: #071629;
+  color: #ccc;
+  display: flex;
+  
+}
+.faq{
+  display: grid;
+}
+
